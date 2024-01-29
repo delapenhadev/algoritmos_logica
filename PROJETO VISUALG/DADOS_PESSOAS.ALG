@@ -4,9 +4,8 @@ Var
    N,i,cont_homens,cont_mulheres:inteiro
    alturas : vetor[0..5] de real
    generos : vetor[0..5] de caracter
-   maior, menor,media_mulheres,soma:real
+   maior,menor,media_mulheres,soma:real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
    escreva("Quantas pessoas serao digitadas? ")
    leia(N)
    para i de 0 ate N-1 faca
@@ -38,7 +37,6 @@ Inicio
    fimpara
    
    cont_mulheres <- 0
-   
    para i de 0 ate N-1 faca
        se generos[i] = "F" entao
           soma <- (soma + alturas[i])
